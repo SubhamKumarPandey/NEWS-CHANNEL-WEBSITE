@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+  background: url(image_5.jpg) no-repeat;
+  background-size: cover;
+
+}
+.home{
+  text-decoration: none;
+  background:#03a9f473;
+  color:white;
+  padding:20px;
+  margin:20px;
+}
+.home:hover{
+  background-color:#673ab78c;
+}
+
+.aboutus{
+  color:white;
+  font-size: 20px;
+  background-color: #03a9f473;
+  width:1000px;
+  left: 40px;
+  padding: 20px;
+  margin:40px;
+  margin-left: 230px;
+}
+.img img{
+  height:300px;
+  width:500px;
+  float:left;
+
+}
+.img1 img{
+  height:300px;
+  width:500px;
+  float:right;
+
+}

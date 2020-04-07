@@ -1,0 +1,311 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+		.header{
+	width: 100%;
+	height: 100vh;
+	background-image:  url('../images/is (13).jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%, 100% 75%,50% 100%,0% 75%,0 0);
+	position: relative;
+
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	opacity: .3;
+	z-index: -1;
+	background:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1)); 
+}
+.rightside img{
+		max-width: 1100px;
+		height: auto;
+	}
+.leftside{
+		color: black;
+		text-transform: uppercase;
+	}
+	.leftside h3{
+		font-size: 40px;
+		margin-bottom: 20px;
+		position: relative;
+	}
+	.leftside h3:after{
+		content: "";
+		width: 400px;
+		height: 3px;
+		position: absolute;
+		top:43%;
+		left: 41.6%; 
+		background-color: #000;
+	}
+	.leftside h1{width: 100%;
+	color: black;
+	background-image: linear-gradient(red, yellow);
+	padding-left: 100px;
+	box-sizing: border-box;
+	font-size: 70px;
+	margin-bottom: 25px;
+
+	}
+	.leftside h2{
+		margin-bottom: 35px;
+		font-weight: 500;
+		word-spacing: 4px;
+		font-style: italic;
+	}
+	.rightside{
+     border-radius: 130% 170% 170% 130% / 130% 130% 170% 170%;
+     background-color: black;  
+	}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	opacity: .3;
+	z-index: -1;
+	background:linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1)); 
+}
+.nav-item a{
+	color: black!important;
+	font-weight: bold;
+}
+/**.logo{
+	width: 40%;
+	color: #fff;
+	background-image: linear-gradient(#8d98e3, #854fee);
+	padding-left: 100px;
+	box-sizing: border-box;
+	} 
+	.logo h1{
+		text-transform: uppercase;
+		font-size: 1.8rem;
+		animation: moment 2s linear infinite;
+		animation-direction: alternate;
+
+	}
+	@keyframes moment{
+		from{ padding-left: 40px; }
+		to{ padding-right: 40px; }
+	}**/
+		.header-extradiv{
+			width: 100%;
+			margin: 100px 0;
+			height:auto;
+			text-align: center;
+
+		}
+		.extra-div{
+			background:#fff;
+			border: medium none;
+			padding: 50px! important;
+			border-radius: 3px;
+			transition: 0.3s; 
+		}
+		.extra-div h2{
+			font-size: 0.9rem;
+			margin: 20px 0 15px 0;
+			font-weight: bold;
+			line-height: 1.1;
+			word-spacing: 4px;
+		}
+		.extra-div:hover{
+			box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+			transform: translateY(-20px);
+		}
+		.serviceffers{
+			background:#f7f7f9;
+			padding: 50px 0;
+			margin-bottom: 50px;
+		}
+		.headings{
+			margin-bottom: 50px; 
+		}
+		.headings{
+			font-size: 1.5rem;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+		.names h1{
+			color: 2e2e2e;
+			font-size: 0.9rem;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.progress{
+			height: 0.6rem! important;
+			margin-bottom: 25px! important;
+		}
+		.project-work{
+			margin: 100px 0;
+
+		}
+		.project-work h1{
+			font-size: 2rem;
+			text-align:center;
+		}
+		.pricing{
+			width: 100%;
+			height: 100vh;
+			padding: 50px;
+			position: relative;
+		}
+		.pricing:before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	z-index: -1;
+	background:linear-gradient(180deg, #16c9f6 55% #fff 0%); 
+}
+.money{
+	font-size: 40px;
+	line-height: 1;
+	color: #606060;
+}
+.card{
+	transition: 0.46s ease;
+}
+.card-header{
+	font-size: 1.6rem;
+	font-weight: bold;
+	background:white!important;
+	padding: 25px 9!important;
+}
+.card-body{
+	padding: 30px 0px!important;
+}
+.card-body li{
+	margin: 10px 0px;
+	font-weight: 400px;
+	font-size: 15px;
+	line-height: 1.6;
+	color:#606060;
+}
+.card-footer{
+	background:white!important;
+	padding: 30px 0px!important;
+
+}
+.card-footer a{
+	border: 1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 5;
+	padding: 12px 35px;
+	outline: none;
+	color: #50d1c0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	text-align: center;
+
+}
+.card:hover .card-footer a:hover{
+	color: #fff;
+	background:#50d1c0;
+	text-decoration: none;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card:hover{
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+.card:hover .card-header, .card:hover .money{
+	color: #50d1c0;
+
+}
+.colourchange{
+		animation: change 1s infinite;
+	}
+	@keyframes change{
+		0%{color: red;}
+		25%{color: purple;}
+		50%{color: yellow;}
+		100%{color: blue;}
+	}
+	.new{
+		animation: change1 6s infinite;
+	}
+	@keyframes change1{
+		0%{color: black;}
+		25%{color: silver;}
+		50%{color: transparent;}
+		100%{color: brown;}
+	}
+.logo{
+	width: 40%;
+	color: #fff;
+	background-image: linear-gradient(#8d98e3, #854fee);
+	padding-left: 100px;
+	box-sizing: border-box;
+	} 
+	.logo h1{
+		text-transform: uppercase;
+		font-size: 1.8rem;
+		animation: moment 2s linear infinite;
+		animation-direction: alternate;
+
+	}
+	@keyframes moment{
+		from{ padding-left: 40px; }
+		to{ padding-right: 40px; }
+	}
+	
+	.button2{
+		margin-right: 50px;
+		border:2px solid #4458dc;
+		color: #222;
+		background-color: #fff;
+		box-shadow: none;
+		display: inline-block;
+		padding: 10px 30px;
+		text-decoration: none;
+		font-weight: lighter;
+		text-transform: uppercase;
+		border-radius: 200px;
+		transition: background-color 0.3s,border 0.3s,color 0.3}
+	.new{
+		animation: change1 6s infinite;
+	}
+	@keyframes change1{
+		0%{color: black;}
+		25%{color: silver;}
+		50%{color: transparent;}
+		100%{color: brown;}
+	}
+	.new1{
+		animation: change11 35s infinite;
+	}
+	@keyframes change11{
+		0%{color: red;}
+		10%{columns: red;}
+		20%{columns: red;}
+		25%{color: black;}
+		50%{color: orange;}
+		100%{color: blue;}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
